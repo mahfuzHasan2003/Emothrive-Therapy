@@ -1,12 +1,14 @@
-import { Geist, Geist_Mono, Nunito } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 
-
-const nunito = Nunito({
+const playfair = Playfair_Display({
   subsets: ['latin'],
-})
+  weight: ['400', '700'], // Add weights as needed
+  variable: '--font-playfair',
+  display: 'swap',
+});
 
 
 const geistSans = Geist({
@@ -26,7 +28,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" >
+    <html lang="en" className={playfair.variable}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
