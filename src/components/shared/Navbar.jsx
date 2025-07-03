@@ -25,6 +25,10 @@ const Navbar = () => {
             title: 'Common Struggles',
             path: '/commonStruggles'
         },
+        {
+            title: 'Login',
+            path: '/login'
+        },
     ]
 
     return (
