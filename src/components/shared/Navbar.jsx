@@ -25,10 +25,6 @@ const Navbar = () => {
             title: 'Common Struggles',
             path: '/commonStruggles'
         },
-        {
-            title: 'Login',
-            path: '/login'
-        },
     ]
 
     return (
@@ -50,13 +46,7 @@ const Navbar = () => {
                                 }
                             </ul>
                         </div>
-                        <div>
-                            <Image src='/project-image/Group 1.svg'
-                                alt='profile'
-                                width={50}
-                                height={50}
-                            />
-                        </div>
+                        <h3>Emothrive</h3>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-[20px]">
