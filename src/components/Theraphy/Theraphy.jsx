@@ -22,7 +22,7 @@ const Theraphy = () => {
           <p className='text-lg'>Helps you recognize and reframe unhelpful thoughts and behaviors through <br /> structured tools and real-time AI support</p>
           <CgArrowTopRightO className='mt-3 text-4xl text-[#018801]' />
         </div>
-        
+
 
         <div>
           <Image src='/project-image/rectangle.png'
@@ -31,6 +31,7 @@ const Theraphy = () => {
             height={550}
           />
         </div>
+        
       </div>
 
       {/*Section-3*/}
