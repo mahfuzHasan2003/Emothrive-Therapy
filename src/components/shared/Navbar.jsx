@@ -30,7 +30,7 @@ const Navbar = () => {
     return (
         <div >
             <div>
-                <div className="navbar bg-[#FFFFFF99] blur-[300] shadow-sm lg:px-16">
+                <div className="navbar bg-[#0000004D] blur-[300] shadow-sm lg:px-16">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <ul className="menu menu-horizontal px-1 text-[20px]">
                             {
                                 navItems?.map((navItem) => (
-                                    <Link className={`ml-4 font-semibold ${pathName === navItem.path ? "text-green-700" : ""}`} href={navItem.path} key={navItem.path}>{navItem.title}</Link>
+                                    <Link className={`ml-4 font-semibold ${pathName === navItem.path ? "text-[]" : ""}`} href={navItem.path} key={navItem.path}>{navItem.title}</Link>
                                 ))
                             }
                         </ul>
