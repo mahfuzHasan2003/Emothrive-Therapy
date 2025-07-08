@@ -5,3 +5,10 @@
   font-family: 'Playfair Display', serif;
 }
 
+@theme {
+  --color-primary: #0056F6;
+}
+
+@utility aside-gradient {
+  @apply bg-gradient-to-b from-[#0129F480] to-[#00062780];
+}
