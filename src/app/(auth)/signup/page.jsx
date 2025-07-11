@@ -1,4 +1,4 @@
-import Input from '@/components/Auth/input'
+import Input from '@/components/Auth/Input'
 import Form from 'next/form'
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineEmail } from "react-icons/md";
