@@ -26,7 +26,7 @@ export default function AuthLayout({ children }) {
       >
          <div className="h-screen flex dashboard-bg">
            <div className="hidden lg:block flex-1/2">
-              <Image src="/project-image/auth-image.png" alt="Brand Image" className="object-cover h-full w-full" width={500} height={1000} />
+              <Image src="/project-image/auth-image.png" alt="Brand Image" className="object-cover h-full w-full" width={500} height={1000} priority />
            </div>
            <div className="w-full lg:flex-1/2 flex items-center justify-center">
                {children}
